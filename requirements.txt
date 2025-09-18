@@ -1,0 +1,42 @@
+# SKTime ML Forecasting - Professional Time Series Project 2025
+# Core SKTime framework
+sktime[all_extras]>=0.24.0
+
+# Dashboard and visualization
+streamlit>=1.39.0
+plotly>=5.24.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Machine learning
+scikit-learn>=1.5.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# Deep learning
+tensorflow>=2.15.0
+keras>=3.0.0
+torch>=2.0.0
+
+# Feature engineering
+tsfresh>=0.20.0
+featuretools>=1.28.0
+
+# Ensemble methods
+mlxtend>=0.23.0
+
+# Optimization
+optuna>=3.6.0
+hyperopt>=0.2.7
+
+# Time series transformations
+tslearn>=0.6.0
+pykalman>=0.9.5
+
+# Statistical models
+statsmodels>=0.14.0
+pmdarima>=2.0.4
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0
