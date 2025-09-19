@@ -1,21 +1,19 @@
-# SKTime ML Forecasting - Professional Time Series Analysis
-# Core requirements (basic analysis without SKTime)
+# SKTime ML Forecasting - REQUIRED LIBRARIES
+# This project specifically demonstrates SKTime ML capabilities
+
+# Core SKTime library - REQUIRED
+sktime[all_extras]>=0.28.0
+
+# Supporting libraries
 pandas>=2.2.0
 numpy>=1.26.0
-matplotlib>=3.5.0
-seaborn>=0.11.0
 plotly>=5.24.0
 yfinance>=0.2.32
 scikit-learn>=1.5.0
+xgboost>=2.1.0
+lightgbm>=4.5.0
 scipy>=1.14.0
-optuna>=3.6.0
-requests>=2.31.0
-tqdm>=4.66.0
+optuna>=3.6.1
 
-# Optional SKTime requirements (install manually if needed)
-# For full SKTime functionality, install:
-# pip install sktime[all_extras]
-#
-# sktime>=0.28.0
-# tsfresh>=0.20.0
-# featuretools>=1.27.0
+# Note: This project requires SKTime to function properly.
+# Without SKTime, the ML forecasting analysis cannot proceed.
