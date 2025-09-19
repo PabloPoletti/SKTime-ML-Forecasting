@@ -25,10 +25,18 @@ Professional machine learning time series forecasting using SKTime framework. Th
 
 ## 🛠️ Installation & Usage
 
-### Prerequisites
+### ⚠️ Required Libraries
+**This project specifically requires SKTime to function properly:**
+
 ```bash
+# Core SKTime library - REQUIRED
+pip install sktime[all_extras]
+
+# Or install all requirements
 pip install -r requirements.txt
 ```
+
+**Note:** Without SKTime, the ML forecasting analysis cannot proceed. The project will exit with clear installation instructions if dependencies are missing.
 
 ### Run Analysis
 ```bash
